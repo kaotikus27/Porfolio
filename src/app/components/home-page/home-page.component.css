@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+* {
+  font-family: "Amaranth", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.amaranth-bold {
+  font-family: "Amaranth", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.amaranth-regular-italic {
+  font-family: "Amaranth", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.amaranth-bold-italic {
+  font-family: "Amaranth", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.main-container {
+  border: 1px solid red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #DEDE7D;
+}
+
+.main-container .left-container {
+  border: 1px solid blue;
+  height: 100%;
+  width: 100%;
+  color: #661B1C;
+}
+
+.main-container .left-container .content {
+  position: fixed;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 1px solid red;
+  height: 100vh;
+  width: 50vw;
+  padding: 180px 116px 426px 132px;
+}
+
+.main-container .left-container .content .title {
+  font-size: 55px;
+  font-weight: bold;
+}
+
+.main-container .left-container .content .sub {
+  font-size: 35px;
+  margin-top: 2em;
+}
+
+.main-container .left-container .content .button-connect {
+  border: 1px solid #661B1C;
+  border-radius: 50px;
+  max-width: 450px;
+  font-size: 40px;
+  margin-top: 5em;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-container .right-container {
+  border: 1px solid green;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.main-container .right-container .page1-content-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 50vw;
+  max-height: 100%;
+}
+
+.main-container .right-container .page1-content-container .content img {
+  width: 50vw;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+
+.main-container .right-container .page2-content-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  max-height: 100%;
+  background-color: #B1C49E;
+  margin-top: -5px;
+}
+
+.main-container .right-container .page3-content-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-height: 100%;
+}
+/*# sourceMappingURL=home-page.component.css.map */
